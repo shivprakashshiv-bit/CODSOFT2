@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Spice Garden</h1>
+  <p>Delicious • Fresh • Authentic</p>
+</header>
+
+<nav>
+  <button onclick="showCategory('starters')">Starters</button>
+  <button onclick="showCategory('main')">Main Course</button>
+  <button onclick="showCategory('desserts')">Desserts</button>
+</nav>
+
+<section class="menu">
+
+  <!-- Starters -->
+  <div class="category" id="starters">
+    <h2>Starters</h2>
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Paneer Tikka</h3>
+        <p>Grilled cottage cheese with spices</p>
+        <span>₹220</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Chicken 65</h3>
+        <p>Crispy spicy fried chicken</p>
+        <span>₹260</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Course -->
+  <div class="category" id="main">
+    <h2>Main Course</h2>
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Butter Chicken</h3>
+        <p>Creamy tomato gravy</p>
+        <span>₹320</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Veg Biryani</h3>
+        <p>Flavored basmati rice</p>
+        <span>₹250</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Desserts -->
+  <div class="category" id="desserts">
+    <h2>Desserts</h2>
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Gulab Jamun</h3>
+        <p>Soft milk dumplings</p>
+        <span>₹90</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/100" alt="">
+      <div>
+        <h3>Ice Cream</h3>
+        <p>Vanilla / Chocolate</p>
+        <span>₹120</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
